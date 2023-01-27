@@ -19,6 +19,9 @@ header img{
 } 
 
 .button {
+   
+
+    
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
@@ -96,10 +99,10 @@ h2 {
     
 }
 .catalog {
-    width: 800px;
-   text-align: center;
-    height: 700px; 
-    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .product {
